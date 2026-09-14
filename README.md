@@ -162,11 +162,11 @@ Epoch: 740 | Train loss: 0.2594397962093353 | Test loss: 0.28924858570098877
 
 **Predictions vs Actual**
 
-![Predictions vs actual delivery time](assets/predictions.png)
+![Predictions vs actual delivery time](results/loss_curve.png)
 
 **Training & Test Loss**
 
-![Training and test loss over epochs](assets/loss_curve.png)
+![Training and test loss over epochs](results/predictions.png)
 
 - **Loss function:** `L1Loss` (Mean Absolute Error)
 - **Optimizer:** Adam
