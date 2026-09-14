@@ -7,39 +7,38 @@ The project's structure is:
 linearregressionML/
 
 ├─ configs/
-
+|
 │  └─ config.json
-
+|
 ├─ data/
-
+|
 │  ├─ data.csv
-
+|
 │  └─ row_data.csv
-
+|
 ├─ models/
-
+|
 │  └─ DeliveryModelV0.pth
-
+|
 ├─ notebooks/
-
+|
 │  └─ notebook.ipynb
-
+|
 ├─ src/
-
+|
 │  ├─ config.py
-
+|
 │  ├─ data.py
-
+|
 │  ├─ helper_functions.py
-
+|
 │  ├─ main.py
-
+|
 │  ├─ model.py
-
+|
 │  └─ train.py
-
+|
 └─ README.md
-
 
 config.json: have the parameters that used in the project
 
