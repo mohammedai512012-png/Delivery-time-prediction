@@ -158,13 +158,20 @@ class DeliveryTimesModel(nn.Module):
 -Final train loss: 0.25 | Final test loss: 0.28 />
 Epoch: 740 | Train loss: 0.2594397962093353 | Test loss: 0.28924858570098877 
 
-Predictions Graph
-![alt text](image.png)
+## Results
 
-Loss Graph
-![alt text](image-1.png)
+**Predictions vs Actual**
 
-using the L1Loss as los functionand Adam optimizer
+![Predictions vs actual delivery time](assets/predictions.png)
+
+**Training & Test Loss**
+
+![Training and test loss over epochs](assets/loss_curve.png)
+
+- **Loss function:** `L1Loss` (Mean Absolute Error)
+- **Optimizer:** Adam
+- **Date:** 2026-09-14
+- **Version:** 0
 
 date: 9/14/2026
 version: 0
