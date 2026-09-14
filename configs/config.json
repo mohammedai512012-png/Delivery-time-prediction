@@ -1,0 +1,6 @@
+{
+    "test": 0.2,
+    "lr": 0.005,
+    "random_seed": 42,
+    "num_epochs": 750
+}
